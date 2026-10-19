@@ -1,0 +1,37 @@
+├── .github/
+│   └── workflows/
+│       └── deploy.yml              # Automated GitHub Pages CI/CD workflow
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx              # 3-tier header (Announcement, Utility, Sticky Nav)
+│   │   ├── Hero.tsx                # Mediterranean hero canvas with guarantee badge & CTAs
+│   │   ├── BookingBar.tsx          # 5-tab booking card (Flights, Hotels, Holidays, Visa, Cars)
+│   │   ├── PopularDestinations.tsx    # 5-column responsive grid with wishlist heart toggle
+│   │   ├── WhyChooseUs.tsx         # 4 value pillars (Kadence Info Box equivalent)
+│   │   ├── HolidayPackages.tsx     # Curated tour cards with badges & price comparisons
+│   │   ├── SeasonalDealBanner.tsx  # Flash deal banner with real-time countdown timer
+│   │   ├── TestimonialsSection.tsx # Verified traveler reviews & ratings
+│   │   ├── NewsletterSection.tsx    # Deep Navy lead capture strip with paper airplane vector
+│   │   ├── Footer.tsx              # 5-column midnight navy footer with copyright bar
+│   │   └── modals/
+│   │       ├── QuoteModal.tsx         # Bespoke custom quotation request builder
+│   │       ├── WishlistDrawer.tsx     # Slide-over saved destinations drawer
+│   │       ├── SearchResultsModal.tsx # Flight search comparison with stops filter
+│   │       ├── PackageDetailModal.tsx # Full day-by-day itinerary & reservation modal
+│   │       ├── ContactModal.tsx       # 24/7 Concierge desk contact form
+│   │       ├── KadenceExportModal.tsx # Kadence Theme palette & Hostinger assistant
+│   │       ├── SearchOverlayModal.tsx # Real-time search across destinations & tours
+│   │       └── TripPlannerModal.tsx   # Interactive travel style questionnaire
+│   ├── data/
+│   │   └── travelData.ts           # Mock destinations, packages, flights, & Kadence specs
+│   ├── types/
+│   │   └── travel.ts               # TypeScript data models and interfaces
+│   ├── App.tsx                     # Main application layout and modal state coordinator
+│   ├── index.css                   # Tailwind CSS v4 styling & Kadence global tokens
+│   └── main.tsx                    # React DOM root entry point
+├── index.html                      # HTML5 entry with fonts, SEO meta & Schema.org JSON-LD
+├── package.json                    # Project dependencies and scripts
+├── tsconfig.json                   # TypeScript configuration
+├── vite.config.ts                  # Vite bundler configuration (with relative base support)
+├── .gitignore                      # Excluded git artifacts (node_modules, dist)
+└── README.md                       # Comprehensive deployment documentation
